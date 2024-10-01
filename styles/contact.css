@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 10vh;
+    align-items: center;
+    background-color: #a8d5e5;
+    color: #134b5f;
+}
+.nav-bar h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+.nav-bar a{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: white;
+    transition: 1.5s;
+}
+.nav-bar a:hover{
+    color: #134b5f;
+    text-decoration: underline;
+}
+
+.links{
+    display: flex;
+    gap: 20px;
+}
+.contact{
+    margin: 20vh auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    border: 2px black solid;
+    width:fit-content;
+    gap: 20px;
+}
